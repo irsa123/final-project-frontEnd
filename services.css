@@ -1,0 +1,91 @@
+.left{
+       padding: 16px;
+       
+ }
+ .search{
+  width: fit-content;
+  right:30%;
+  padding-top:20px;
+  position: relative;
+ }
+ #message{
+  color: red;
+  font-weight: 900;
+  text-align: center;
+  right: 35%;
+  position: relative;
+  
+ }
+
+ .text-search{
+  border-radius:  20px; 
+  border: 2px ridge green;
+  height: 50px;
+  width:500px ;
+ }
+
+  
+ .category{
+    display: inline-block;
+    color: green;
+    cursor: pointer;
+}
+.span-items{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:right;
+    margin-top: 0;
+  }
+
+  .services{
+    padding-top: 20px;
+  }
+
+  .titleCategory,
+      .subject,
+      .capecity,
+      .duration,
+      .date,
+      .price {
+        padding: 20px;
+        margin-left: 5px;
+        text-align:center;
+      }
+      .table-title {
+        text-align: center;
+        background-color: rgb(121, 121, 121);
+        color: white;
+        display: inline-block;
+        width: 15%;
+      }
+      .table{
+        padding :20px
+      }
+
+      .row-table {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+        margin:0 25px;
+        align-items:center;
+        border-bottom:2px rgb(11, 109, 11) solid;
+        border-radius: 3px;
+      }
+      .row-table :hover   {
+        background-color: rgb(140, 214, 140);
+
+      }
+
+      #items{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        min-height: max-content;
+        padding:16px;
+      }

@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  margin: 0;
+  font-family: "IranSans", sans-serif;
+}
+
+address{
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+  text-align: center;
+  
+}
+.title {
+  text-align:center;
+  color: #555;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 0;
+  margin:0;
+}
+.about {
+  text-align: center;
+  font-size: 24px;
+  margin:0;
+  color:red;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: grey;
+  height: 100%;
+  /* width: 100%; */
+  bottom: 0px;
+  margin-top:40px;
+
+}
+
+.logo {
+  padding:0 16px;
+  height: 100%;
+  /* width: 100%;  */
+  /* background-image: url(/images/klematis.jpg); */
+}
+
+.nav {
+  display: flex;
+  flex-wrap:wrap;
+  background-color: rgb(39, 108, 154);
+  /* height: 20vh; */
+  width: 100%;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 0 16px;
+  justify-content: right;
+  z-index: 400;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  }
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  display: block;
+  line-height: 20vh;
+  padding: 0 16px;
+}
+
+ul li a:hover {
+  background-color: rgb(156, 186, 224);
+  font-size: larger;
+}
+
+.go-up {
+  margin-right: 16px;
+  position: fixed;
+  bottom: 0;
+}
+
+.go-up :hover {
+  transform: rotate(180deg) scale(1.5);
+  transition: all 0.5s;
+}
+
+.mountain {
+  height: 40vh;
+  /* width: 100%; */
+  /* background-image: url("https://newevolutiondesigns.com/images/freebies/4k-wallpaper-3.jpg"); */
+  background-image: url(/images/nature-hd-background-preview-24.jpg);
+  /* background-size: 2700px 1500px; */
+  background-size: 1700px 700px;
+  background-position: 0 50%;
+  animation: anim1 10s 4;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+  0% {
+  }
+  25% {
+    background-position: Calc(0vw - 200px) 25%;
+  }
+  50% {
+    background-position: Calc(0vw - 200px) 50%;
+  }
+}
+
+.tour-moredays a,
+.tour-internal a,
+.tour-external a,
+.tour-oneday a {
+  background-size: cover;
+  display: block;
+  text-decoration: none;
+  /* width: 220px; */
+  height: 220px;
+}
+
+.tour-oneday a {
+  background: url("/images/12-918.jpg") no-repeat center;
+}
+
+.tour-moredays a {
+  background: url("/images/6-303.jpg") no-repeat center;
+}
+.tour-internal a {
+  background: url("/images/7-945.jpg") no-repeat center;
+}
+.tour-external a {
+  background: url("/images/8-468.jpg") no-repeat center;
+}
+
+[class|=tour]:hover{
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  flex-wrap: wrap;
+
+  }
+
+  [class*='col-'] {
+    /* padding: 15px; */
+    /* Mobile first */
+    width: 100%;
+  }
+  @media screen and (min-width: 576px) {
+    .col-md-1 { width: 8.3333%; }
+    .col-md-2 { width: 16.6667%; }
+    .col-md-3 { width: 25%; }
+    .col-md-4 { width: 33.3333%; }
+    .col-md-5 { width: 41.6667%; }
+    .col-md-6 { width: 50%; }
+    .col-md-7 { width: 58.3333%; }
+    .col-md-8 { width: 66.6667%; }
+    .col-md-9 { width: 75%; }
+    .col-md-10 { width: 83.3333%; }
+    .col-md-11 { width: 91.6667%; }
+    .col-md-12 { width: 100%; }
+  }
+
+  @media screen and (min-width: 768px) {
+    .col-lg-1 { width: 8.3333%; }
+    .col-lg-2 { width: 16.6667%; }
+    .col-lg-3 { width: 25%; }
+    .col-lg-4 { width: 33.3333%; }
+    .col-lg-5 { width: 41.6667%; }
+    .col-lg-6 { width: 50%; }
+    .col-lg-7 { width: 58.3333%; }
+    .col-lg-8 { width: 66.6667%; }
+    .col-lg-9 { width: 75%; }
+    .col-lg-10 { width: 83.3333%; }
+    .col-lg-11 { width: 91.6667%; }
+    .col-lg-12 { width: 100%; }
+  }
+  
