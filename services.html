@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خدمات</title>
+    <meta name="description" content="سایت جهان گردی" />
+    <link rel="shortcut icon" href="/images/klematis.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="CSS/print.css" media="print" />
+    <link rel="stylesheet" href="css/services.css" />
+    <script src="/JS/services.js"></script>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="/images/klematis.jpg" alt="تورگشت" />
+      </div>
+      <ul>
+        <li><a href="/index.html">خانه</a></li>
+        <li><a href="/services.html">محصولات</a></li>
+        <li><a href="/contact.html">تماس با ما</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <span class="before"><i class=" fa-solid fa-search"></i></span>
+      <input class="text-search" oninput="onclickhandler(this)" type="text" name="searchText" id="searchText" placeholder="تور مورد نظر خود را جستجو نمایید">
+      <br>
+      <span id="message"></span>
+    </div>
+    <div class="row">
+      <aside class="left col-md-2 col-lg-2">
+        <div id="items"></div>
+      </aside>
+      <main class="col-md-10 col-lg-10">
+        <div class="table row-table">
+          <div class="table-title titleCategory ">دسته بندی</div>
+          <div class="table-title subject ">عنوان</div>
+          <div class="table-title capecity ">ظرفبت</div>
+          <div class="table-title duration ">مدت زمان</div>
+          <div class="table-title date ">تاریخ</div>
+          <div class="table-title price">مبلغ</div>
+        </div>
+        <div id="table-body"></div>
+      </main>
+    </div>
+    <!-- // <footer>
+    //   <div class="footer-container">
+    //     <address>       
+    //       آدرس تهران تلفن: 343434 ایمیل: sdf@m.com
+    //     </address>
+    //   </div>
+    // </footer>  -->
+  </body>
+</html>
