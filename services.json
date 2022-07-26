@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titleCategory": "یک روزه",
+    "category":"oneDay",
+    "title": "جنگل",
+    "capecity": "بله",
+    "duration": 1,
+    "date": "18.07.2022",
+    "price": 1000000
+  },
+
+  {
+    "id": 2,
+    "titleCategory": "چند روزه",
+    "category":"severalDays",
+    "title": "دریا",
+    "capecity": "خیر",
+    "duration": 3,
+    "date": "19.07.2022",
+    "price": 3000000
+  },
+
+  {
+    "id": 3,
+    "titleCategory": "داخلی",
+    "category":"internal",
+    "title": "تبریز",
+    "capecity": "بله",
+    "duration": 7,
+    "date": "20.07.2022",
+    "price": 30000000
+  },
+  {
+    "id": 4,
+    "titleCategory": "خارجی",
+    "category":"external",
+    "title": "ترکیه",
+    "capecity": "بله",
+    "duration": 79,
+    "date": "21.07.2022",
+    "price": 40000000
+  }
+]

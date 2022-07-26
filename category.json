@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "تورهای یک روزه",
+    "category":"oneDay"
+  },
+  {
+    "id": 2,
+    "title": "تورهای چند روزه",
+    "category":"severalDays"
+  },
+
+  {
+    "id": 3,
+    "title": "تورهای داخلی",
+    "category":"internal"
+  },
+  {
+    "id": 4,
+    "title": "تورهای خارجی",
+    "category":"external"
+  }
+]
